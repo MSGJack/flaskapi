@@ -1,0 +1,289 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+span {
+  font-weight: bolder;
+  color: red;
+}
+
+html,
+body {
+  background-image: conic-gradient(#ff0000, #000000, #ff0000);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+* {
+  box-sizing: inherit; /* Ensure all elements respect box-sizing */
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.transparent {
+  color: #e52e71;
+}
+
+.mainConL {
+  padding: 3rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 30rem;
+  padding: 2.5rem;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.centerHead {
+  display: flex;
+  text-decoration: underline;
+  justify-content: center;
+}
+
+.loading1 {
+  padding: 1.3rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1rem;
+  margin: 3rem;
+}
+
+.loadingFont {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.displayLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.mCon {
+  padding: 3rem;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.yellowHR {
+  background-color: yellow;
+  height: 0.2rem;
+  opacity: 0.8;
+}
+
+.redHR {
+  background-color: red;
+  opacity: 0.3;
+}
+
+.errorLayout {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 1.4rem;
+  background-color: #000000;
+  padding: 2rem;
+}
+
+.notfound {
+  padding: 3rem;
+}
+
+.usercardt {
+  outline: thick double #2ee5d6;
+  padding: 2rem;
+  margin: 1rem;
+  width: 25rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.userimg {
+  outline: #e52e71 solid;
+  width: 100%;
+  height: auto;
+}
+
+.test2 {
+  height: 20rem;
+}
+
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+}
+
+.updateCard {
+  width: 30rem;
+  margin: auto;
+  outline: thick double #f5669b;
+  margin-bottom: 10%;
+}
+
+.navItem {
+  font-weight: bolder;
+}
+
+.headerCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.navDisplay {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.form2 {
+  outline: 5px solid lightblue;
+  background-color: rgb(40, 22, 44);
+  color: firebrick;
+  box-shadow: 3px 2px 3px 1px 2px lightcoral;
+}
+
+input {
+  border: 0.02rem solid #f8f8f8ee;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 0.01rem;
+  width: 100%;
+  height: 3rem;
+  font-weight: bold;
+}
+
+input:focus {
+  border-color: #3273dc;
+  box-shadow: 0 0 0.7rem 0.8rem rgba(50, 115, 221, 0.5);
+}
+
+.input3 {
+  box-shadow: 3px 2px 3px 1px 2px rgb(82, 211, 7);
+
+  font-weight: bolder;
+  height: 2.7rem;
+  border-radius: 0.4rem;
+}
+
+.input2 {
+  outline: lightskyblue solid;
+  box-shadow: 3px 2px 5px 4px 7px pink;
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+.mainCon {
+  padding: 1rem;
+  color: white;
+  background-color: #000000;
+}
+
+.displayFC {
+  display: flex;
+  justify-content: center;
+}
+
+.mechsLayout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2.5rem;
+}
+
+.mechsCard {
+  width: 20rem;
+  height: 37rem;
+  outline: thick solid thistle;
+  margin-bottom: 10%;
+}
+
+.userCon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footerFSE {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.usersCard {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin: 4rem;
+  padding: 1rem;
+}
+
+.mechsUser {
+  outline: solid white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.imgSize {
+  width: 15rem;
+  height: auto;
+}
+
+.brandM {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+*/
+
